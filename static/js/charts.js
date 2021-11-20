@@ -148,19 +148,19 @@ function buildCharts(sample) {
  var gaugeData = [{
 
        domain: { x: [0, 1], y: [0, 1] },
-       value: floatWfreq, //Washing frequency
-       title: { text: '<b>Belly Button Washing Frequency</b> <br> Scrubs per week', font: { size: 24 } },
+       value: floatWfreq, 
+       title: { text: '<b>Belly Button Washing Frequency</b> <br> Scrubs per week', font: { size: 20 } },
        type: "indicator",
        mode: "gauge+number",
        gauge: {
            axis: { range: [0, 10], tickwidth: 2, tickcolor: "black" },
-           bar:{color: 'black'},
+           bar:{color: 'maroon'},
            steps: [
-               { range: [0, 2], color: "red" },
-               { range: [2, 4], color: "orange" },
-               { range: [4, 6], color: "yellow" },
-               { range: [6, 8], color: "lime" },
-               { range: [8, 10], color: "green" }
+               { range: [0, 2], color: "navy" },
+               { range: [2, 4], color: "royalblue" },
+               { range: [4, 6], color: "teal" },
+               { range: [6, 8], color: "lightskyblue" },
+               { range: [8, 10], color: "paleturquoise" }
            ],
        },
  }];
@@ -178,3 +178,6 @@ function buildCharts(sample) {
  Plotly.newPlot("gauge", gaugeData, gaugeLayout);
 });
 }
+
+// Initialize the dashboard
+init();
