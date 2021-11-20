@@ -1,4 +1,4 @@
-# Belly Button Bio-Diversity
+# Belly Button Biodiversity Dashboard
 
 ## Background
 
