@@ -24,4 +24,11 @@ The challenge requires four technical analysis deliverables in order to present 
 ![image](https://github.com/amberwnaushahi/plotly_deploy/blob/main/images/GUAGE.png)
 
 ### Deliverable 4: Customize the Dashboard
-![image]()
+
+Customizations include:
+
+* Adding a background image to Jumbotron
+* Adding background colour to the page
+* Changing guage colours to match overall page theme of "blue"
+
+![image](https://github.com/amberwnaushahi/plotly_deploy/blob/main/images/webpage.png)
